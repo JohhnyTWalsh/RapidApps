@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<assets PGFVersion="0.25" GSCVersion="1.25.5977">
+  <sounds>
+    <sound name="button-10">
+      <file name="button-10.ogg" size="5839" />
+    </sound>
+    <sound name="hi">
+      <file name="hi.ogg" size="5839" />
+    </sound>
+  </sounds>
+  <images>
+    <image name="images">
+      <file name="images.png" size="121109" />
+    </image>
+    <image name="download">
+      <file name="download.png" size="28417" />
+    </image>
+    <image name="Wheel">
+      <file name="Wheel.png" size="40564" />
+    </image>
+    <image name="Wheel (2)">
+      <file name="Wheel (2).png" size="6336" />
+    </image>
+    <image name="Ball">
+      <file name="Ball.png" size="48201" />
+    </image>
+    <image name="IntroScreen">
+      <file name="IntroScreen.png" size="13740" />
+    </image>
+    <image name="PlayButton">
+      <file name="PlayButton.png" size="2630" />
+    </image>
+    <image name="Player1">
+      <file name="Player1.png" size="59046" />
+    </image>
+    <image name="Player2">
+      <file name="Player2.png" size="26239" />
+    </image>
+    <image name="intro">
+      <file name="intro.png" size="126447" />
+    </image>
+  </images>
+  <fonts />
+  <behaviors />
+</assets>

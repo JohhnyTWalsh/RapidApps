@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scene PGFVersion="0.25" GSCVersion="1.25.5977" id="id545101">
+  <layers>
+    <layer id="id592327">
+      <actors>
+        <actor id="id606081" prototype="id706663">
+          <attributes>
+            <point id="position">
+              <real id="x">368</real>
+              <real id="y">206</real>
+            </point>
+            <size id="size">
+              <real id="width">732</real>
+              <real id="height">352</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id574096" prototype="id500928">
+          <attributes>
+            <point id="position">
+              <real id="x">368</real>
+              <real id="y">397</real>
+            </point>
+            <size id="size">
+              <real id="width">731</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0.501960784313725</real>
+              <real id="green">0.501960784313725</real>
+              <real id="blue">0.501960784313725</real>
+              <real id="alpha">1</real>
+            </color>
+          </attributes>
+          <behaviors />
+          <aspects />
+        </actor>
+        <actor id="id552539" prototype="id500928">
+          <attributes>
+            <point id="position">
+              <real id="x">368</real>
+              <real id="y">17</real>
+            </point>
+            <size id="size">
+              <real id="width">733</real>
+              <real id="height">30</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0.501960784313725</real>
+              <real id="green">0.501960784313725</real>
+              <real id="blue">0.501960784313725</real>
+              <real id="alpha">1</real>
+            </color>
+            <text id="name">Top Layer Copy 1</text>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id490239" prototype="id891883">
+          <attributes>
+            <point id="position">
+              <real id="x">55</real>
+              <real id="y">200</real>
+            </point>
+            <size id="size">
+              <real id="width">10</real>
+              <real id="height">80</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0</real>
+              <real id="green">0.501960784313725</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
+          </attributes>
+          <behaviors>
+            <behavior id="id256802" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id300430" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">down</text>
+                      <text id="keyString">w</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id710291" class="MoveBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Move</text>
+                    <text id="bundleName">Move.behavior</text>
+                    <angle id="direction">90</angle>
+                    <index id="space">0</index>
+                    <index id="moveType">0</index>
+                    <real id="speed">300</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id604400" class="RuleBehavior" enabled="true">
+              <attributes>
+                <text id="name">Rule</text>
+                <text id="bundleName">Rule.behavior</text>
+                <real id="compoundConditionKind">0</real>
+              </attributes>
+              <conditions>
+                <condition id="id659452" eventType="key" pluginPredicateTypeIndex="0" class="Key">
+                  <attributes>
+                    <text id="name">default name</text>
+                    <index id="conditionType">0</index>
+                  </attributes>
+                  <predicate type="key">
+                    <attributes>
+                      <text id="mode">down</text>
+                      <text id="keyString">x</text>
+                    </attributes>
+                  </predicate>
+                </condition>
+              </conditions>
+              <behaviors>
+                <behavior id="id561385" class="MoveBehavior" enabled="true">
+                  <attributes>
+                    <text id="name">Move</text>
+                    <text id="bundleName">Move.behavior</text>
+                    <angle id="direction">270</angle>
+                    <index id="space">0</index>
+                    <index id="moveType">0</index>
+                    <real id="speed">300</real>
+                  </attributes>
+                </behavior>
+              </behaviors>
+            </behavior>
+            <behavior id="id199519" class="CollideBehavior" enabled="true">
+              <attributes>
+                <text id="name">Collide</text>
+                <text id="bundleName">Collide.behavior</text>
+                <text id="prototypeKey">id500928</text>
+                <text id="actorTag">Ground</text>
+                <index id="mode">0</index>
+              </attributes>
+            </behavior>
+            <behavior id="id752841" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.position.x</text>
+                <text id="RHS">55</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+          <aspects>
+            <graphics>
+              <attributes />
+            </graphics>
+            <physics>
+              <attributes>
+                <boolean id="fixedRotation">true</boolean>
+                <real id="friction">0</real>
+                <real id="density">500</real>
+                <boolean id="canSleep">true</boolean>
+                <boolean id="betterColisions">false</boolean>
+              </attributes>
+            </physics>
+          </aspects>
+        </actor>
+      </actors>
+      <attributes>
+        <text id="name">Background</text>
+        <boolean id="scrollable">true</boolean>
+      </attributes>
+    </layer>
+  </layers>
+  <attributes>
+    <text id="name">Initial Scene</text>
+    <real id="time">0</real>
+    <size id="size">
+      <real id="width">736</real>
+      <real id="height">414</real>
+    </size>
+    <boolean id="wrapX">false</boolean>
+    <boolean id="wrapY">false</boolean>
+    <point id="gravity">
+      <real id="x">0</real>
+      <real id="y">0</real>
+    </point>
+    <color id="color">
+      <real id="red">0</real>
+      <real id="green">0</real>
+      <real id="blue">0</real>
+      <real id="alpha">1</real>
+    </color>
+    <rect id="camera">
+      <point id="origin">
+        <real id="x">0</real>
+        <real id="y">0</real>
+      </point>
+      <size id="size">
+        <real id="width">736</real>
+        <real id="height">414</real>
+      </size>
+      <size id="trackingArea">
+        <real id="width">656</real>
+        <real id="height">354</real>
+      </size>
+      <real id="rotation">0</real>
+    </rect>
+    <attributes id="autorotate">
+      <boolean id="landscapeLeft">true</boolean>
+      <boolean id="portrait">false</boolean>
+      <boolean id="landscapeRight">false</boolean>
+      <boolean id="portraitUpsideDown">false</boolean>
+    </attributes>
+  </attributes>
+</scene>
