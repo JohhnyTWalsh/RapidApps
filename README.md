@@ -1,2 +1,1 @@
-# RapidApps
-MyRepo
+https://github.com/JohhnyTWalsh/RapidApps.git
